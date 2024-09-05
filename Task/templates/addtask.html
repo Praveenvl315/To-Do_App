@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<h1>Add Task</h1>
+<center>
+    <fieldset class="container">
+        <legend>Add task</legend>
+        <form action="" method="post">
+            {% csrf_token %}
+            <table cellspacing="30px">
+                <tr><td><label for="">Title</label></td></tr>
+                <tr><td><input type="text" name="title" id=""></td></tr>
+                <tr><td><label for="">Description</label></td></tr>
+                <tr><td><input type="text" name="desc" id=""></td></tr>
+                <tr><td></td></tr>
+                <tr><td><center><button type="submit" id="submit">Submit</button></center></td></tr>
+            </table> 
+        </form>
+    </fieldset>
+</center>
+{% endblock %}

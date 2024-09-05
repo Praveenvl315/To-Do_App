@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 1.5rem;
+    font-family: "Roboto", sans-serif ;
+}
+
+a{
+    text-decoration: none;
+}
+nav {
+    width: 100%;
+    height: 7rem;
+    background: lightgray;
+
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav h1 {
+    color: rgb(240, 230, 230);
+    position: absolute;
+    left: 1rem;
+    top: .5rem;
+    font-size: 5rem;
+    text-shadow: 0 0 10px #333, 0 0 10px #333, 0 0 10px #333;
+}
+
+nav .navlinks a {
+    padding: 2rem;
+    font-size: 3rem;
+    color: whitesmoke;
+    text-shadow: 0 0 10px #333;
+}
+
+.navlinks a:hover, a:focus {
+    color: #5a5a66;
+    opacity: 0.4;
+}
+
+#container {
+    width: 50rem;
+    min-height: 40rem;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    box-shadow: 1px 1px 10px #333;
+    position: relative;
+}
+
+#container h1 {
+    background-color: burlywood;
+    color: whitesmoke;
+    font-size: 5rem;
+    border-bottom: 1px solid #333;
+}
+
+#container ul li a{
+    list-style: none ;
+    font-size: 2.5rem;
+    /* border-bottom: 1px solid #333; */
+    color: black;
+}
+ 
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem 2rem 2rem 2rem;
+    gap: 2rem;
+}
+ 
+ul:hover, ul:focus {
+    background: lightgray;
+    color: white;
+}
+
+ul li {
+    position: absolute;
+    left: 2rem;
+    /* border-bottom: 1px solid #333; */
+
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: dodgerblue;
+}
+
+button {
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    border: 0px;
+}
+
+button a {
+    color: whitesmoke;
+}
+
+.container {
+    width: 40rem;
+    min-height: 20rem;
+    border: 10px double rgb(238, 18, 18);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px #333;
+    position: relative;
+}
+
+label {
+    font-size: 3rem;
+}
+
+input {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 5px #333;
+    border: 0;
+}
+
+#submit {
+    background-color: dodgerblue;
+    color: whitesmoke;
+    border: 0;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+}
+
+legend {
+    font-size: 2rem;
+    /* padding: 1.5rem; */
+    margin-left: 2rem;
+    background-color: red;
+    border: 1px solid #333;
+    border-radius: .7rem;
+    color: whitesmoke;
+}
+
+.task_details {
+    width: 25rem;
+    min-height: 10rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem 
+}
+
+p {
+    text-indent: 50px;
+}
